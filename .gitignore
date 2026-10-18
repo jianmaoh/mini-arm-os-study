@@ -1,0 +1,15 @@
+# upstream clone & generated project (not my code)
+mini-arm-os/
+jserv_study/
+
+# build outputs
+*.o
+*.elf
+*.bin
+*.list
+build/
+
+# macOS / editor
+.DS_Store
+.vscode/
+
