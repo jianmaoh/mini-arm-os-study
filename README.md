@@ -7,6 +7,15 @@ Work in progress.
 The original mini-arm-os mainly targets an STM32F103 emulated in QEMU. This repo ports it
 to the STM32F401 and adds my own modifications and notes to each chapter.
 
+## Hardware
+
+  | Item | Spec |
+  |---|---|
+  | Board | NUCLEO-F401RE |
+  | MCU | STM32F401RE, Cortex-M4 (r0p1) |
+  | Flash | 512 KB, starting at `0x08000000` |
+  | SRAM | 96 KB, `0x20000000`–`0x20017FFF` |
+
 ## Progress
 
 - [x] **00-Semihosting**: vector table, Reset_Handler, linker script, semihosting I/O
